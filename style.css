@@ -45,12 +45,12 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   flex-grow: 1;
+  font-size: 1em;
 }
 .portfolio {
-  display: grid;
-  align-content: space-between;
+  /* display: grid;
+  align-content: space-between; */
   background-color: #ad56c4;
 }
 
