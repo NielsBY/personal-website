@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 nav {
@@ -22,6 +23,10 @@ nav a {
   text-decoration: none;
   font-family: fantasy;
   margin: 1em;
+  cursor: pointer;
+}
+nav a:hover {
+  color: darkgray;
 }
 
 .home {
@@ -36,7 +41,6 @@ nav a {
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .about {
   background-color: #ff9ce9;
@@ -47,6 +51,7 @@ nav a {
   align-items: flex-start;
   flex-grow: 1;
   font-size: 1em;
+  justify-content: space-around;
 }
 .portfolio {
   /* display: grid;
@@ -56,6 +61,25 @@ nav a {
 
 .contact {
   background-color: slategray;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.contact a:hover {
+  color: darkgray;
+}
+
+.contact main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 1em;
 }
 
 img {
